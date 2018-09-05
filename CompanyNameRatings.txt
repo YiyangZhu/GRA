@@ -1,0 +1,40 @@
+Company link is:https://www.glassdoor.com/Reviews/Apple-Reviews-E1138.htm
+company name is:Apple
+Company rating is:4.0
+
+Company link is:https://www.glassdoor.com/Reviews/Abbott-Labs-Reviews-E12.htm
+company name is:Abbott Labs
+Company rating is:3.6
+
+Company link is:https://www.glassdoor.com/Reviews/ABIOMED-Reviews-E755.htm
+company name is:ABIOMED
+Company rating is:3.9
+
+Company link is:https://www.glassdoor.com/Reviews/Accenture-Reviews-E4138.htm
+company name is:Accenture
+Company rating is:3.8
+
+Company link is:https://www.glassdoor.com/Reviews/Activision-Blizzard-Reviews-E605784.htm
+company name is:Activision Blizzard
+Company rating is:3.8
+
+Company link is:https://www.glassdoor.com/Reviews/Adobe-Reviews-E1090.htm
+company name is:Adobe
+Company rating is:4.2
+
+Company link is:https://www.glassdoor.com/Reviews/AMD-Reviews-E15.htm
+company name is:AMD
+Company rating is:3.7
+
+Company link is:https://www.glassdoor.com/Reviews/Advance-Auto-Parts-Reviews-E8708.htm
+company name is:Advance Auto Parts
+Company rating is:3.0
+
+Company link is:https://www.glassdoor.com/Reviews/AES-Corp-Reviews-E397075.htm
+company name is:AES Corp.
+Company rating is:3.6
+
+Company link is:https://www.glassdoor.com/Reviews/Aetna-Reviews-E16.htm
+company name is:Aetna
+Company rating is:3.3
+

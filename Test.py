@@ -4,13 +4,14 @@ from bs4 import BeautifulSoup
 
 
 file = open("CompanyLinks.txt", "r")
-
+f = open("CompanyNameRatings.txt","w")
 theEnd = False
 while not theEnd:
     line = file.readline()
     if line != "":
         line = line.strip()
         print("Company link is:",line)
+        f.write("Company link is:"+str(line)+"\n")
         quote_page = Request(line, headers={'User-Agent': 'Mozilla/5.0'})
         page = urlopen(quote_page)
         soup = BeautifulSoup(page.read(),'html.parser')
@@ -21,16 +22,20 @@ while not theEnd:
         #print("name box:",name_box)
         name = name_box.text.strip()
         print("company name is:",name)
+        f.write("company name is:"+str(name)+"\n")
 
         #<div class="ratingNum">4.0</div>
         rating_box = soup.find('div', attrs={"class", "ratingNum"})
         #print("rating box:",rating_box)
         rate = rating_box.text.strip()
-        print("Company rating is:", rate)
-        print()       
+        print("Company rating is:",rate)
+        f.write("Company rating is:"+str(rate)+"\n\n")
+        print()
     else:
         theEnd = True
+        
 file.close()
+f.close()
 '''
 quote_page = Request('https://www.glassdoor.com/Overview/Working-at-Apple-EI_IE1138.11,16.htm', headers={'User-Agent': 'Mozilla/5.0'})
 page = urlopen(quote_page)
