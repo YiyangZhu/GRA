@@ -29,14 +29,10 @@ while not theEnd:
         rate = rating_box.text.strip()
         print("Company rating is:",rate)
         f.write("Company rating is:"+str(rate)+"\n")
-        
-        #get company id
         indexOfReviews = line.index("Reviews-E")
         indexOfHtm = line.index(".htm")
         id = line[indexOfReviews + 9:indexOfHtm]
-        print("Company id is:",id)
-        f.write("Company id is:"+str(id)+"\n")
-        
+                
         #get company subratings
         beginPart = "https://www.glassdoor.com/api/employer/"
         endPart = "-rating.htm?locationStr=&jobTitleStr=&filterCurrentEmployee=false&filterEmploymentStatus=REGULAR&filterEmploymentStatus=PART_TIME"
